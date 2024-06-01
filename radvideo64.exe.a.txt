@@ -7971,13 +7971,13 @@ RAD Video Tools
 包括alpha通道并转换为预乘alpha
 
 1349776:Include the alpha plane, filter it as pre-multiplied, and then convert back to standard alpha (Recommended setting)
-包括alpha通道,先将其作为预乘alpha过滤,然后再转换回标准alpha.(推荐的设置,因为它在视频压缩和处理保持最佳的透明度效果.
+包括alpha通道,先将其作为预乘alpha过滤,然后再转换回标准alpha(推荐的设置,因为它在视频压缩和处理保持最佳的透明度效果)
 
 1349904:Disable warning that appears when requesting alpha and there is no alpha present in the input file.
-禁用再请求alpha通道但输入文件中没有alpha通道时出现的警告.知道输入没有alpha,不想看警告信息,可以选择这个选项.
+禁用在请求alpha通道但输入文件中无alpha通道时出现的警告,既输入没有alpha,不想看警告信息,选这个
 
 1350016:Disable zero alpha block weighting (blocks of all alpha zero are weighted to be ignored).
-禁用零alpha块权重(alpha为零块加权忽略,用于编码优化,如果alpha有大量完全透明的块,可以提高压缩效率.
+禁用零alpha块权重(既完全透明块加权忽略,当alpha有大量零块选这个是编码优化提高压缩效率)
 
 1350112:2 slices
 2个分片
@@ -8058,7 +8058,7 @@ VAQ 重度VAQ
 重度VAQ(最适合快速移动的视频)
 
 1350936:Bink Compressor - %s ...
-Bink压缩器 - %s …
+Bink压缩器 - %s ...
 
 1350968: &Output directory info: 
 输出目录信息:
@@ -8250,7 +8250,7 @@ Bink Audio Mixer - %s ...
  /y5
 
 1351744:Choose the input sound filename...
-选择输入声音文件名…
+选择输入声音文件名...
 
 1351784:No input sound filename and/or output Bink filename chosen.
 未选择输入声音文件名和/或输出Bink文件名
@@ -8322,10 +8322,10 @@ Smacker 压缩器 - %s ...
  /t2
 
 1352240:Choose the output Smacker filename...
-选择输出Smacker文件名…
+选择输出Smacker文件名...
 
 1352280:Choose the input palette filename...
-选择输入调色板文件名…
+选择输入调色板文件名...
 
 1352320:cws
 cws
@@ -8487,7 +8487,7 @@ Smacker播放器
 sap
 
 1353272:Set the quick options...
-设置快速选项…
+设置快速选项...
 
 1353312:Do you want to use the current settings as the quick play (Explorer double-click) settings?
 您想要将当前设置作为快速播放(资源管理器双击)设置吗?
@@ -8520,7 +8520,7 @@ Bink播放器 - %s ...
  /b%s
 
 1353496:Select a subtitle SRT filename...
-选择字幕SRT文件名…
+选择字幕SRT文件名...
 
 1353536:use full color if possible
 如果可能,使用全彩
@@ -8670,7 +8670,7 @@ List文件编辑器 - %s
 List文件编辑器 - 无标题.lst
 
 1354520:Choose the files to add...
-选择要添加的文件…
+选择要添加的文件...
 
 1354548:\r\n
 \r\n
@@ -8679,7 +8679,7 @@ List文件编辑器 - 无标题.lst
 无标题
 
 1354568:Choose the output list filename...
-选择输出列表文件名…
+选择输出列表文件名...
 
 1354604:Save?
 保存?
@@ -8982,7 +8982,7 @@ Windows不知道如何打开这种类型的文件
 .GIF
 
 1358172:press a series of input files by specifing the input\n    filename with this type of syntax:  \"Exam???.BMP*1-149\".  This\n    filename would cause \"Exam001.BMP\" through \"Exam149.BMP\"\n    to be converted.\n\n  List files are simply text files that contain a list of files to be\n    converted.  You list one input file or series per line.  You can\n    also the /S and /E switches on each line of a list file to specify a\n    subset of frames in each input file to convert.  List files must have\n    an .LST extension.\n
-通过指定具有此类型语法的输入文件名:“Exam???.BMP*1-149”这个文件名会导致“Exam001.BMP”通过“Exam149.BMP”被转换\n\n  列表文件仅仅是包含要转换的文件的一个文本文件列表您可以每行列出单个输入文件或系列您还可以在每个列表文件的每行上使用 /S 和 /E 开关来指定每个输入文件中要转换的帧子集列表文件必须具有 .LST 扩展名
+通过指定具有此类型语法的输入文件名:"Exam???.BMP*1-149"这个文件名会导致"Exam001.BMP"通过"Exam149.BMP"被转换\n\n  列表文件仅仅是包含要转换的文件的一个文本文件列表您可以每行列出单个输入文件或系列您还可以在每个列表文件的每行上使用 /S 和 /E 开关来指定每个输入文件中要转换的帧子集列表文件必须具有 .LST 扩展名
 
 1360823: darken, 100=don't change, 200=twice as bright).\n    /]#.# - Set the gamma correction (less than 1.0=darken, 1.0=don't change, greater than 1.0=brighten).\n    /(# - Specifies the scale to width (shrinks or zooms).\n    /)# - Specifies the scale to height (shrinks or zooms).\n    /X# - Specifies the cropping left coordinate.\n    /Y# - Specifies the cropping top coordinate.\n    /W# - Specifies the cropping width.\n    /H# - Specifies the cropping height.\n    /&filename - Specifies a file to get the palette from.
 暗化,100=不改变,200=亮度加倍\n    /]#.# - 设置伽马校正(小于1.0=暗化,1.0=不改变,大于1.0=增亮)\n    /(# - 指定缩放宽度(缩小或放大)\n    /)# - 指定缩放高度(缩小或放大)\n    /X# - 指定裁剪左侧坐标\n    /Y# - 指定裁剪顶部坐标\n    /W# - 指定裁剪宽度\n    /H# - 指定裁剪高度\n    /&filename - 指定一个文件以获取调色板
@@ -9117,13 +9117,13 @@ Smacker视频技术 - 版本4.2e\n\nEpic Games Tools, LLC\n425-893-4300\n网站: www.rad
 打开提示文件错误:
 
 1365688:Auto-key-framing frame %i...
-自动关键帧处理帧 %i…
+自动关键帧处理帧 %i...
 
 1365720:Smacking
 Smacking
 
 1365736:Calculating compression data...
-计算压缩数据…
+计算压缩数据...
 
 1365768:  Complexity error - try compressing with a lower data rate.
 复杂性错误 - 尝试使用更低的 数据速率进行压缩
@@ -10383,7 +10383,7 @@ am
 否
 
 1380080:\r\n    Attributes: archive-%s  read only-%s  hidden-%s  system-%s
-\r\n 属性:archive-%s 只读-%s 隐藏-%s 系统-%s
+\r\n 属性:存档-%s 只读-%s 隐藏-%s 系统-%s
 
 1380152:Command line help:\n  RADInfo File
 命令行帮助:\n RADInfo File
@@ -10980,7 +10980,7 @@ Windows Media
 列表
 
 1393000:Opening %s...
-打开中 %s…
+打开中 %s...
 
 1393016:.tiff
 .tiff
@@ -11172,7 +11172,7 @@ Flood alpha
  否.
 
 1395392:&Done
-&Done
+完成
 
 1395400:%s - Done!
 %s - 完成!
@@ -11568,13 +11568,13 @@ Bink Snd
 RADCPS%I64d
 
 1408256:Error, got an in-use cross process number...\n
-错误,得到了一个正在使用的跨进程编号…
+错误,得到了一个正在使用的跨进程编号...\n
 
 1408304:RADCPC%I64d
 RADCPC%I64d
 
 1408320:Error, client mutex not initialized...\n
-错误,客户端互斥体未初始化…
+错误,客户端互斥体未初始化...\n
 
 1408360:RADtransfer%s%I64d
 RADtransfer%s%I64d
